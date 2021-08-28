@@ -6,7 +6,7 @@ Create Feature Code for Say Date and Time on Persian language
 1. Copy `jalalidate` folder in `/etc/asterisk/`
 - Check this directory `/var/lib/asterisk/sounds` for exist `pr` folder
 2. Open `/etc/asterisk/extensions_custom.conf` create `zarbinnetwork-features` context and include it
-``` bash script
+```
 [from-internal-custom]
 include => zarbinnetwork-features
 
