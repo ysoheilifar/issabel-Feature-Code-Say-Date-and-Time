@@ -4,6 +4,7 @@ Create Feature Code for Say Date and Time on Persian language
 **I used [jdate](http://jdf.scr.ir/) for date convertor with bash**
 
 1. Copy `jalalidate` folder in `/etc/asterisk/`
+- check `/var/lib/asterisk/sounds` for `pr` folder exist , if not copy `pr` folder to this direction
 2. Open `/etc/asterisk/extensions_custom.conf` create `zarbinnetwork-features` context and include it
 ``` bashscript
 [from-internal-custom]
